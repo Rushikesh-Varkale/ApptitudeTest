@@ -1,0 +1,84 @@
+@media only screen and (max-width: 992px) {
+    #navigateQuestionsContainer {
+        display: none;
+    }
+
+    #navigateQuestionsButtonDiv {
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+
+        /* background-color:green; */
+    }
+
+    #myNav {
+        position: sticky;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+
+    #navigateQuestionsContainer {
+        position: absolute;
+        /* top:150px; */
+        right: 50px;
+        display: none;
+    }
+
+    #navigateQuestions {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 2px;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Adjust the height as needed */
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .border-black {
+        border: 1px solid black;
+        border-radius: 2px;
+    }
+
+    #myNav {
+        position: sticky;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+    }
+
+    .mycontainer {
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+        grid-gap: 10px;
+    }
+
+    #navigateQuestions {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 2px;
+        /* background-color:#292929; */
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Adjust the height as needed */
+    }
+
+    #timerBox {
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+
+    }
+
+    #NavigationButtonsButton {
+        display: none;
+    }
+
+}
